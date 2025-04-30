@@ -34,17 +34,23 @@ A personal full-stack web application built using the MERN stack (MongoDB, Expre
 
 Project Setup & Running Locally
 1. Clone the Repository
+   
 $ git clone https://github.com/your-username/job-search-portal.git
 $ cd job-search-portal
 
 2. Set up Backend
+   
 $ cd backend
 $ npm install
+
 Create a .env file inside the backend/ folder:
+
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
+
 Start the backend:
+
 $ npm start
 
 3. Set up Frontend
